@@ -1,337 +1,182 @@
-
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>King Clean - Higienização</title>
-  <style>
-    body {
-      background-color: #003366;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      color: white;
-    }
-    header {
-      text-align: center;
-      padding: 20px;
-    }
-    .logo {
-      max-width: 150px;
-      margin-bottom: 10px;
-    }
-    h1 {
-      color: #ffcc00;
-    
- 
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>King Clean - Serviços de Higienização</title>
-    <style>
-        body {
-    
-       font-family: 
-
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>King Clean - Serviços de Higienização</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: white;
-            color: #333;
-            background-image: url('IMG_20250404_WA0173 jpg'); /* Adicione o caminho da sua imagem de fundo */('IMG_20250404_WA0173 jpg')
-            background-size: cover; /* A imagem de fundo vai cobrir toda a área */
-            background-position: center; /* A imagem de fundo será centralizada */
-            background-attachment: fixed; /* A imagem de fundo ficará fixa ao rolar a página */
-        }
-
-        header {
-            background-color: rgba(0, 81, 102, 0.9); /* Azul marinho com transparência */
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-
-        header img {
-            width: 150px;
-        }
-
-        nav {
-            background-color: #FFCC00; /* Amarelo */
-            text-align: center;
-            padding: 10px;
-        }
-
-        nav a {
-            color: #003366; /* Azul marinho */
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-
-        section {
-            padding: 20px;
-            text-align: center;
-        }
-
-        section h2 {
-            color: #003366; /* Azul marinho */
-        }
-
-        .service {
-            display: inline-block;
-            width: 250px;
-            margin: 15px;
-            text-align: center;
-            padding: 10px;
-            border: 1px solid #003366;
-            border-radius: 10px;
-            background-color: #f4f4f4;
-        }
-
-        .service img {
-            width: 100%;
-            border-radius: 10px;
-        }
-
-        .footer {
-            background-color: #003366; /* Azul marinho */
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <img src="IMG_20250404_WA0173" alt="King Clean Logo">
-        <h1>King Clean </h1>
-</h1>Serviços de Higienização</h1>
-    </header>
-
-    <nav>
-        <a href="#">Início</a>
-        <a href="#">Serviços</a>
-        <a href="#">Sobre nós</a>
-        <a href="#">Contato</a>
-    </nav>
-
-    <section>
-        <h2>Higienização Profunda para o conforto do seu Ambiente. </h2>
-
-        <div class="service">
-
-<img src="imagem-servico1.jpg" alt="Serviço 1">
-            <h3>Higienização de Sofá e Poltronas e Cadeiras</h3>
-            <p>Remoçãode de sujeiras, Manchas e odores, utilizando técnicas de Higienização específicas para diferentes tipos de tecidos e materiais.</p>
-<a href="https://wa.me/5511984008851" target="_blank">Solicitar Orçamento</a>
-        </div>
-
-        <div class="service">
-            <img src="imagem-servico2.jpg" alt="Serviço 2">
-            <h3>Higienização de Tapetes e Carpetes e Persianas</h3>
-            <p>Eliminação de Ácaros, sujeira profunda e Odores, mantendo seus Tapetes como Novos.</p>
-<a href="https://wa.me/5511984008851" target="_blank">Solicitar Orçamento</a>
-        </div>
-
-        <div class="service">
-            <img src="imagem-servico3.jpg" alt="Serviço 3">
-            <h3>Higienização de Colchões</h3>
-            <p>Desinfecção Profunda para tratamento de manchas; óleo, café, vinho,sangue entre outros.</p>
-<a href="https://wa.me/5511984008851" target="_blank">Solicitar Orçamento</a>
-        </div>
-
-        <div class="service">
-            <img src="1000066363.webp.jpg" alt="Serviço 4">
-            <h3>Impermeabilização de Tecidos </h3>
-            <p> Proteção a Fibra do tecido, que ajuda a preservar seus estofados por mais tempo.</p>
-
-<a href="https://wa.me/5511984008851" target="_blank">Solicitar Orçamento</a>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <p>&copy; 2025 King Clean - Todos os direitos reservados</p>
-    </footer>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>King Clean - Higienização</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>King Clean - Higienização Profunda</title>
   <style>
+    :root {
+      --azul-marinho: #002b5b;
+      --amarelo: #ffd700;
+      --branco: #ffffff;
+    }
     body {
-      background-color: #003366;
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      color: white;
+      background-color: var(--branco);
+      color: var(--azul-marinho);
     }
     header {
-      text-align: center;
+      background-color: var(--azul-marinho);
+      color: var(--branco);
       padding: 20px;
-    }
-    .logo {
-      max-width: 200px;
-    }
-    h1 {
-      color: #ffcc00;
-      font-size: 2rem;
-    }
-    .buttons a {
-      display: inline-block;
-      margin: 10px;
-      padding: 10px 20px;
-      background-color: #ffcc00;
-      color: #003366;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-    .section {
-      background-color: white;
-      color: #003366;
-      padding: 30px 10px;
       text-align: center;
+      position: relative;
     }
-    .section h2 {
-      color: #c62828;
+    .header-social-icons {
+      position: absolute;
+      top: 20px;
+      right: 20px;
     }
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 15px;
-      margin-top: 20px;
+    .header-social-icons a {
+      margin-left: 10px;
+      color: var(--branco);
+      text-decoration: none;
+      font-size: 1.2rem;
     }
-    .gallery img {
-      width: 250px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: var(--azul-marinho);
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: '\2714';
+      margin-right: 8px;
+      color: green;
+    }
+    .services, .benefits, .testimonials {
+      background-color: var(--branco);
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .contact {
+      background-color: #f4f9ff;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .btn-orcamento {
+      display: inline-block;
+      background-color: var(--amarelo);
+      color: var(--azul-marinho);
+      padding: 12px 20px;
+      margin-top: 15px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .btn-orcamento:hover {
+      background-color: #e6c200;
+    }
+    .social-icons {
+      margin-top: 10px;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      color: var(--branco);
+      text-decoration: none;
+      font-size: 1.5rem;
     }
     footer {
-      background-color: #002244;
+      background-color: var(--azul-marinho);
+      color: var(--branco);
       text-align: center;
-      padding: 20px;
-      color: #ccc;
-      font-size: 0.9rem;
+      padding: 10px;
+    }
+    .testimonial {
+      margin-bottom: 20px;
+      padding: 10px;
+      border-left: 4px solid var(--amarelo);
+      background-color: #f9f9f9;
+    }
+    .testimonial p {
+      margin: 5px 0;
+    }
+    .testimonial strong {
+      color: var(--azul-marinho);
     }
   </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
   <header>
-    <img src=" 1000066363.webp" alt="Logo King Clean" class="logo" 1000066363.webp />
-    <h1>King Clean</h1>
-    <p>Entre em Contato Conosco nas Opções abaixo</p>
-    <div class="buttons">
-      <a href="https://wa.me/5511984008851" target="_blank">WhatsApp</a>
-      <a href="https://www.instagram.com/kingclean_sp" target="_blank">Instagram</a>
-      <a href="mailto:kingcleansp@gmail.com">E-mail</a>
+    <div class="header-social-icons">
+      <a href="https://wa.me/5511984008851" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="mailto:contato@kingclean.com" target="_blank"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.instagram.com/kingclean" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/kingclean" target="_blank"><i class="fab fa-facebook"></i></a>
     </div>
+    <h1>King Clean</h1>
+    <p>Higienização Profunda para o Conforto do Seu Ambiente</p>
   </header>
-
-  <section class="section">
+  <section class="services">
     <h2>Nossos Serviços</h2>
-    <div class="gallery">
-      <img src="sofa.jpg" alt="Higienização de Sofá , Poltronas e Cadeiras" />
-      <img src="colchao.jpg" alt="Higienização de Colchões" />
-      <img src="tapete.jpg" alt="Higienização de Tapetes, Carpetes e Persianas" />
-      <img src="cadeira.jpg" alt="Serviçode Impermeabilização de Tecidos" />
+    <ul>
+      <li><strong>Higienização de Sofás e Poltronas:</strong> Remoção de sujeiras, manchas e odores, com técnicas para cada tipo de tecido.</li>
+      <li><strong>Limpeza de Carpetes e Tapetes:</strong> Eliminação de ácaros e sujeira profunda, mantendo o aspecto de novo.</li>
+      <li><strong>Desinfecção Profunda:</strong> Limpeza com eliminação de germes e bactérias.</li>
+      <li><strong>Tratamento de Manchas Difíceis:</strong> Eficiente contra manchas de óleo, café, vinho e mais.</li>
+      <li><strong>Proteção e Impermeabilização:</strong> Produtos que aumentam a durabilidade dos estofados.</li>
+    </ul>
+  </section>
+  <section class="services">
+    <h2>Por que Escolher a King Clean?</h2>
+    <ul>
+      <li>Atendimento rápido e eficiente com horários flexíveis.</li>
+      <li>Equipe profissional e treinada.</li>
+      <li>Produtos e técnicas modernas.</li>
+      <li>Compromisso com a saúde do seu lar.</li>
+    </ul>
+  </section>
+  <section class="benefits">
+    <h2>Benefícios da Higienização</h2>
+    <ul>
+      <li>Redução de ácaros e bactérias.</li>
+      <li>Eliminação de odores desagradáveis.</li>
+      <li>Renovação visual dos móveis.</li>
+      <li>Aumento da durabilidade dos estofados.</li>
+    </ul>
+  </section>
+  <section class="testimonials">
+    <h2>O que dizem nossos clientes</h2>
+    <div class="testimonial">
+      <p>"Excelente serviço! Meu sofá ficou como novo. Profissionais pontuais e atenciosos."</p>
+      <p><strong>— Mariana S.</strong></p>
+    </div>
+    <div class="testimonial">
+      <p>"Já utilizei a King Clean duas vezes. Sempre muito satisfeita com o resultado e atendimento!"</p>
+      <p><strong>— João R.</strong></p>
+    </div>
+    <div class="testimonial">
+      <p>"Super recomendo! Tiraram manchas antigas do meu tapete e ainda deixaram um cheirinho ótimo."</p>
+      <p><strong>— Ana L.</strong></p>
     </div>
   </section>
-
+  <section class="contact">
+    <h2>Entre em Contato</h2>
+    <p><strong>Telefone / WhatsApp:</strong> (11) 98400-8851</p>
+    <p>Solicite um orçamento sem compromisso!</p>
+    <a class="btn-orcamento" href="https://wa.me/5511984008851" target="_blank">Pedir Orçamento</a>
+  </section>
   <footer>
-    <p>&copy; 2025 King Clean - Todos os direitos reservados</p>
+    <p>&copy; 2025 King Clean - Todos os direitos reservados.</p>
+    <div class="social-icons">
+      <a href="https://wa.me/5511984008851" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="mailto:contato@kingclean.com" target="_blank"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.instagram.com/kingclean" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/kingclean" target="_blank"><i class="fab fa-facebook"></i></a>
+    </div>
   </footer>
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>King Clean - Serviços de Higienização</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: white;
-            color: #333;
-        }
-
-        header {
-            background-color: #003366; /* Azul marinho */
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-
-        header img {
-            width: 150px;
-        }
-
-        nav {
-            background-color: #FFCC00; /* Amarelo */
-            text-align: center;
-            padding: 10px;
-        }
-
-        nav a {
-            color: #003366; /* Azul marinho */
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-
-        section {
-            padding: 20px;
-            text-align: center;
-        }
-
-        section h2 {
-            color: #003366; /* Azul marinho */
-        }
-
-        .service {
-            display: inline-block;
-            width: 250px;
-            margin: 15px;
-            text-align: center;
-            padding: 10px;
-            border: 1px solid #003366;
-            border-radius: 10px;
-            background-color: #f4f4f4;
-        }
-
-        .service img {
-            width: 100%;
-            border-radius: 10px;
-        }
-
-        .footer {
-            background-color: #003366; /* Azul marinho */
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
